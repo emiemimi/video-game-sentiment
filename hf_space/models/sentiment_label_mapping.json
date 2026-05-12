@@ -1,0 +1,14 @@
+{
+  "label_to_id": {
+    "mixed": 0,
+    "negative": 1,
+    "neutral": 2,
+    "positive": 3
+  },
+  "id_to_label": {
+    "0": "mixed",
+    "1": "negative",
+    "2": "neutral",
+    "3": "positive"
+  }
+}

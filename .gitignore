@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local embedding caches are reproducible and can be large.
+data/cache/
+
+# Keep only the final balanced dataset in the repository.
+data/reddit_gaming_clean.csv
+data/reddit_gaming_clean.parquet
+data/reddit_gaming_full_prelabeled.csv
+data/reddit_gaming_labeling_sample.csv
+data/reddit_gaming_prelabeled.csv
+
+# Local virtual environments and build artifacts.
+.venv/
+venv/
+build/
+dist/
