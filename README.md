@@ -1,4 +1,7 @@
 # Video Game Sentiment Classifier
+___
+*This project was entirely made with Codex. See the attached report for more details and discussion on this.*
+___
 
 This project classifies the sentiment of video-game community comments using text embeddings and PyTorch classifiers.
 
