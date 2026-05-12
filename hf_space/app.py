@@ -126,8 +126,9 @@ demo = gr.Interface(
         ["The game looks good but the performance is awful.", "Neural Network"],
         ["I am just waiting for the patch notes before deciding.", "Neural Network"],
     ],
+    cache_examples=False,
 )
 
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(ssr_mode=False)
