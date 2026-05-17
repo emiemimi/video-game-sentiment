@@ -11,6 +11,8 @@ pretty_name: Video Game Sentiment Balanced 10k
 
 This dataset contains 10,000 labeled gaming-community Reddit comments for sentiment classification.
 
+Live Hugging Face dataset page: [emiemimi/video-game-sentiment-dataset](https://huggingface.co/datasets/emiemimi/video-game-sentiment-dataset)
+
 Only the balanced 10k dataset is included in this Hugging Face dataset repository.
 
 ## Columns
@@ -37,4 +39,3 @@ Only the balanced 10k dataset is included in this Hugging Face dataset repositor
 ## Label Quality Note
 
 Labels were created with LLM assistance and minimal human review. Some labels may be noisy or incorrect.
-

@@ -5,6 +5,12 @@ ___
 
 This project classifies the sentiment of video-game community comments using text embeddings and PyTorch classifiers.
 
+## Hugging Face Links
+
+- Dataset: [emiemimi/video-game-sentiment-dataset](https://huggingface.co/datasets/emiemimi/video-game-sentiment-dataset)
+- Model: [emiemimi/video-game-sentiment-model](https://huggingface.co/emiemimi/video-game-sentiment-model)
+- Demo Space: [emiemimi/video-game-sentiment-demo](https://huggingface.co/spaces/emiemimi/video-game-sentiment-demo)
+
 The final model predicts one of four sentiment labels:
 
 - `positive`
@@ -63,4 +69,3 @@ The neural network is the stronger model, but the results are modest. A likely r
 The Hugging Face Space in `hf_space/` is designed to run on free CPU hardware. It uses `Qwen/Qwen3-Embedding-0.6B` through `sentence-transformers` and the trained PyTorch classifier.
 
 No paid API calls or paid Hugging Face hardware are required.
-

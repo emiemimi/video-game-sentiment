@@ -10,6 +10,8 @@ app_file: app.py
 
 This Space predicts sentiment for video-game community comments.
 
+Live Hugging Face Space: [emiemimi/video-game-sentiment-demo](https://huggingface.co/spaces/emiemimi/video-game-sentiment-demo)
+
 It runs on free Hugging Face CPU hardware and does not use paid APIs, paid Inference Providers, or paid GPU hardware.
 
 The app loads `Qwen/Qwen3-Embedding-0.6B` with `sentence-transformers`, then applies the trained PyTorch sentiment classifier.

@@ -13,6 +13,8 @@ tags:
 
 This repository contains PyTorch classifiers trained on Qwen3 0.6B embeddings for gaming-community sentiment classification.
 
+Live Hugging Face model page: [emiemimi/video-game-sentiment-model](https://huggingface.co/emiemimi/video-game-sentiment-model)
+
 ## Task
 
 Input: a gaming-related comment.
@@ -46,4 +48,3 @@ The neural network checkpoint is the recommended model.
 ## Limitations
 
 Labels were created with LLM assistance and only minimal human review. The model may have learned from noisy labels, which likely contributes to modest performance.
-
